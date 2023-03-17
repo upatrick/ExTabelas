@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0px;
+            }
+
+            h1 {
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            #img-bonita {
+                width: 300px;
+            }
+
+            #horario {
+                width: 50px;
+            }
+
+            .img-container {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            td {
+                padding: 10px;
+                border: 1px solid black;
+                text-align: center;
+              
+            }
+            tr {    
+                text-align: center;
+            }
+
+            table {
+                margin-top: 50px;
+                width: 100%;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            footer {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Plano de Estudo</h1>
+        </header>
+        <div class="img-container">
+            <img id="img-bonita" src="/images/image-bonita.png" />
+        </div>
+        <div>
+            <table>
+                <tbody style="border: 1px, black, solid">
+                    <tr>
+                        <td><img id="horario" src="/images/horario.png" /></td>
+                        <td>SEGUNDA</td>
+                        <td>TERÇA</td>
+                        <td>QUARTA</td>
+                        <td>QUINTA</td>
+                        <td>SEXTA</td>
+                        <td>SÁBADO</td>
+                        <td>DOMINGO</td>
+                    </tr>
+                    <tr>
+                        <td>08:00 - 12:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Descansar</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td style="text-align: center" colspan="7">Almoçar</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 15:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="3">Descansar</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 18:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 22:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>22:30 - 08:00</td>
+                        <td colspan="7" style="text-align: center">Dormir</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="8" style="text-align: center;"><img src="/images/growdev.png" style="text-align: center" /></td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+            </table>
+            <footer>
+                Atividade prática - Tabela Cronograma de Estudos - ©Growdev 2022
+            </footer>
+        </div>
+    </body>
+</html>
